@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Rp_autofit_img from "./grid_auto_fit/rp_autofit_img";
 import Rp_grid_autofit from "./grid_auto_fit/rp_grid_autofit";
 import Grid_fr from "./grid_fr/gridfr1";
 import Rp_grid1 from "./rp_grid/rp_grid1";
@@ -11,7 +12,8 @@ const App = () => {
       {/* <Rp_grid1/> */}
       {/* <Rp_grid2/> */}
       {/* <Rp_gridSpan/> */}
-      <Rp_grid_autofit />
+      {/* <Rp_grid_autofit /> */}
+      <Rp_autofit_img />
     </>
   );
 };
